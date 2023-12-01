@@ -1,0 +1,109 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    
+    font-family: "Source-Sans-Pro", Arial, Helvetica, sans-serif;
+}
+
+/* Fonts */
+@font-face{
+    font-family: 'Source-Sans-Pro';
+    src: url('fonts/source-sans-pro.regular.ttf')
+}
+
+/* Oldagram Header */
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #C6C6C6;
+    height: 67px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+    /* Color for gap dividing posts */
+    background: #EDEDED;
+}
+
+/* Oldagram individual posts */
+section{
+    /* Background Color */
+    background: #ffffff;
+}
+
+/* Oldagram img */
+.header-img{
+    margin: 15px;
+    width: 127px;
+}
+
+/* Post Containers */
+.container{
+    /* border: solid 1px; */
+    width: 375px;
+    
+    /* Centers content to middle */
+    margin: 0px auto;
+}
+
+.container-top{
+    display: flex;
+    align-items: center;
+}
+
+.container-bottom{
+    padding: 21px 19px 10px 10px;
+}
+
+.container-bottom p{
+    margin: 12px 3px;
+}
+
+/* Properties for posts */
+.name,
+.location{
+    /* Spacing between name and location */
+    margin: 2px 0;
+}
+
+.name,
+.username,
+.likes{
+    font-weight: 700;
+}
+
+.location{
+    font-size: 12px;
+}
+
+.avatar{
+    height: 34px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.post{
+    width: 375px;
+    display: block;
+}
+
+.user-avatar{
+    margin: 16px;
+}
+
+/* Buttons */
+.btns img{
+    height: 23px;
+    margin: 0;
+}
+
+.btns img:hover{
+    opacity: 0.4;
+}
